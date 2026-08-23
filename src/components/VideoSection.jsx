@@ -3,7 +3,7 @@ function VideoSection() {
     <section className="video-section">
       <div className="video-wrapper">
         <video autoPlay muted loop playsInline>
-          <source src="/space video.mp4" type="video/mp4" />
+          <source src="/spacevideo.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="video-text">
