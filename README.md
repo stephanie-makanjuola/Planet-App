@@ -1,16 +1,26 @@
-# React + Vite
+# Planet App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React web application that visualizes solar system data using a planets API.
 
-Currently, two official plugins are available:
+## Team Members
+- Stephanie Makanjuola — [github.com/stephanie-makanjuola](https://github.com/stephanie-makanjuola)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Components & Who Built Them
+- Header — Stephanie
+- Hero — Stephanie
+- VideoSection — Stephanie
+- PlanetsSection — Stephanie
+- PlanetCard — Stephanie
+- TableSection — Stephanie
+- ContactForm — Stephanie
+- Footer — Stephanie
 
-## React Compiler
+## How to Run Locally
+1. Clone the repo: `git clone https://github.com/stephanie-makanjuola/Planet-App`
+2. Navigate into the folder: `cd Planet-App`
+3. Install dependencies: `npm install`
+4. Start the dev server: `npm run dev`
+5. Open `http://localhost:5173` in your browser
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Live Deployment
+https://planet-app-inky.vercel.app/
