@@ -20,7 +20,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero-image">
-        <img src="solarsystem.jpg" alt="Earth" />
+        <img src="solarsystem.jpg" alt="The Solar System" />
       </div>
     </section>
   )
