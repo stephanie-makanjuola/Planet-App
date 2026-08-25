@@ -416,3 +416,7 @@ body {
 .highlight {
   color: #1a56db;
 }
+
+.required {
+  color: red;
+}

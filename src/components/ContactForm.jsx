@@ -39,24 +39,24 @@ function ContactForm() {
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-row">
             <div className="form-group">
-              <label>Full Name *</label>
+              <label>Full Name <span className="required">*</span></label>
               <input type="text" name="fullname" placeholder="Full name" 
                 required onChange={handleChange} />
             </div>
             <div className="form-group">
-              <label>Email *</label>
+              <label>Email <span className="required">*</span></label>
               <input type="email" name="email" placeholder="example@example.com" 
                 required onChange={handleChange} />
             </div>
           </div>
           <div className="form-row">
             <div className="form-group">
-              <label>Phone Number *</label>
+              <label>Phone Number <span className="required">*</span></label>
               <input type="tel" name="phone" placeholder="Please enter a valid phone number." 
                 required onChange={handleChange} />
             </div>
             <div className="form-group">
-              <label>Message *</label>
+              <label>Message <span className="required">*</span></label>
               <textarea name="message" placeholder="Enter your message" 
                 maxLength={100} required onChange={handleChange} />
               <small>100 characters</small>
